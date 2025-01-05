@@ -12,8 +12,8 @@ export const auth = defineAuth({
         clientId: secret("GOOGLE_CLIENT_ID"),
         clientSecret: secret("GOOGLE_CLIENT_SECRET"),
       },
-      callbackUrls: ["http://localhost:3000/", "https://llwc.bolte.sh/"],
-      logoutUrls: ["http://localhost:3000/", "https://llwc.bolte.sh/"],
+      callbackUrls: ["https://llwc.bolte.sh"],
+      logoutUrls: ["https://llwc.bolte.sh"],
     },
   },
 });
