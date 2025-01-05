@@ -11,7 +11,7 @@ Amplify.configure(outputs);
 
 export default function App() {
   return (
-    <Authenticator>
+    <Authenticator socialProviders={["google"]}>
       <Main />
     </Authenticator>
   );
