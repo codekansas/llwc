@@ -5,7 +5,7 @@ import "./app.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Learn Language with Comics",
+  title: "llwc",
   description: "Learn a new language by reading comics, powered by AI.",
 };
 
